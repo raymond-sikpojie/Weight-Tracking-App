@@ -1,14 +1,14 @@
 body {
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
-  background: lightyellow;
+  background: rgb(238, 226, 226);
   width: 32rem;
   text-align: center;
 }
 
 h1 {
-  padding: 20px;
-  background: rgb(26, 8, 8);
+  padding: 15px;
+  background: rgb(0, 0, 0);
   color: white;
 }
 
@@ -20,21 +20,29 @@ h1 {
   font-family: monospace;
 }
 
-#secondary-container {
+#output-container {
   margin: 25px;
   text-align: center;
   height: 100px;
+  color: rgb(92, 121, 94);
 }
 
 #p1,
 #p2,
 #p3 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #p4 {
   font-size: 30px;
-  margin-top: 100px;
+  margin-top: 10rem;
+}
+
+#input-container {
+  align-items: center;
+  margin-top: 18rem;
+  /* margin-top: 25rem;
+  position: fixed; */
 }
 
 #form-container {
@@ -42,7 +50,6 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
 }
 
 #number-input,
@@ -58,10 +65,8 @@ h1 {
 }
 
 #enter-button {
-  width: 100px;
+  width: 120px;
   background: rgb(191, 241, 206);
-
-  /* padding: 40px; */
 }
 
 #reset {
@@ -72,4 +77,8 @@ h1 {
 
 #icon {
   color: white;
+}
+
+#footer {
+  margin-top: 4rem;
 }

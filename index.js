@@ -1,4 +1,4 @@
-const textContainer = document.querySelector("#secondary-container");
+const textContainer = document.querySelector("#output-container");
 const firstLine = document.querySelector("#p1");
 const secondLine = document.querySelector("#p2");
 const thirdLine = document.querySelector("#p3");
