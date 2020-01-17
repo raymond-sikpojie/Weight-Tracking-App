@@ -1,3 +1,3 @@
 # Weight-Tracking-App
 
-Created with HTML and CSS
+Created with HTML, CSS and JavaScript
