@@ -6,19 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Weight Tracker</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/731e2a8dd9.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="container">
-      <h1>Weight Tracker</h1>
-      <div class="input">
-        <div class="container2">
-          <p class="p1">You lost 10kg!</p>
-          <p class="p2">Previous weight was x kg</p>
-        </div>
-
-        <input class="text-input" type="text" placeholder="Enter weight (kg)" />
-        <span><input class="button" type="button" value="Add"/></span>
+    <h1>Weight Tracker</h1>
+    <div id="main-container">
+      <div id="secondary-container">
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
       </div>
+
+      <p id="p4"></p>
+
+      <form id="form-container">
+        <input id="number-input" type="text" placeholder="Weight (kg)" />
+        <button id="enter-button">Enter</button>
+      </form>
+      <span>
+        <button id="reset">
+          <i id="icon" class="fas fa-sync-alt"></i>
+        </button>
+      </span>
     </div>
 
     <script src="index.js"></script>
